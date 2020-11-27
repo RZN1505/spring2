@@ -18,6 +18,11 @@ public class ExceptionHandlerImpl {
 
     @ExceptionHandler(ManagerIsEarlierThanNeedException.class)
     public ResponseEntity<Object> methodArgumentNotValidException(ManagerIsEarlierThanNeedException exception) {
-        return new ResponseEntity<>(exception.getMessage(), HttpStatus.BAD_REQUEST);
+        return new ResponseEntity<>(new Error(exception.getMessage()), HttpStatus.BAD_REQUEST);
+    }
+
+    @ExceptionHandler(NotFoundException.class)
+    public ResponseEntity<Object> methodArgumentNotValidException(NotFoundException exception) {
+        return new ResponseEntity<>(new Error(exception.getMessage()), HttpStatus.BAD_REQUEST);
     }
 }
