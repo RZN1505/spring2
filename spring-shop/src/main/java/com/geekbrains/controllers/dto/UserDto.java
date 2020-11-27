@@ -18,4 +18,5 @@ public class UserDto {
     private Integer age;
     @NotNull(message = "Тип пользователя не указан.")
     private UserType userType;
+
 }
