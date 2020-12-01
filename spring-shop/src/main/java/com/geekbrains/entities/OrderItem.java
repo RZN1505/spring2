@@ -38,7 +38,7 @@ public class OrderItem {
     }
 
     public void decrement() {
-        this.quantity--;
+        if (this.quantity-- <= 0) this.quantity = 0;
         this.price = new BigDecimal(this.quantity * product.getPrice().doubleValue());
     }
 
