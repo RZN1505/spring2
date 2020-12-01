@@ -15,4 +15,3 @@ public class Error {
         this.message = message;
     }
 }
-
