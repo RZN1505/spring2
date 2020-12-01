@@ -5,60 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e449ab2-20db-4059-a50b-0e989c83ce95" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4b3a76d8-9724-4e90-ab71-b5c99f63761a.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4b3a76d8-9724-4e90-ab71-b5c99f63761a/storage_v2/_src_/database/MYDATABASE.J58wnw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4b3a76d8-9724-4e90-ab71-b5c99f63761a/storage_v2/_src_/database/MYDATABASE.J58wnw/schema/INFORMATION_SCHEMA.NBgcMw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4b3a76d8-9724-4e90-ab71-b5c99f63761a/storage_v2/_src_/database/MYDATABASE.J58wnw/schema/PUBLIC.aaZQjQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/controllers/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/controllers/dto/UserDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/controllers/dto/UserType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/entities/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/entities/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/entities/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/entities/OrderItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/entities/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/exceptions/Error.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/exceptions/Error.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/exceptions/ExceptionHandlerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/exceptions/ExceptionHandlerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/repositories/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/repositories/OrderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/repositories/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/repositories/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/services/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V1__initialize.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1__initialize.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekbrains/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekbrains/controllers/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekbrains/controllers/dto/UserDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekbrains/controllers/dto/UserType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekbrains/entities/Category.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekbrains/entities/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekbrains/entities/OrderItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekbrains/entities/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekbrains/entities/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekbrains/entities/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekbrains/exceptions/ExceptionHandlerImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekbrains/exceptions/ManagerIsEarlierThanNeedException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekbrains/exceptions/NotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekbrains/exceptions/RoleNotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekbrains/exceptions/UnknownUserTypeException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekbrains/repositories/CategoryRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekbrains/repositories/OrderItemRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekbrains/repositories/OrderRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekbrains/repositories/ProductRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekbrains/repositories/RoleRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekbrains/repositories/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekbrains/services/RoleService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekbrains/services/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V1__initialize.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/frontend/CartView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/frontend/CartView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,28 +190,28 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="600" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/0.1080.1536.824@0.0.1920.1040" timestamp="1606237905498" />
-    <state width="1680" height="301" key="GridCell.Tab.0.bottom" timestamp="1606840441390">
+    <state width="1680" height="301" key="GridCell.Tab.0.bottom" timestamp="1606840505503">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1680" height="301" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1606840441390" />
+    <state width="1680" height="301" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1606840505503" />
     <state width="1877" height="351" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.1080.1536.824@0.0.1920.1040" timestamp="1606245032933" />
     <state width="1201" height="264" key="GridCell.Tab.0.bottom/0.23.1680.981@0.23.1680.981" timestamp="1606839560282" />
-    <state width="1680" height="301" key="GridCell.Tab.0.center" timestamp="1606840441389">
+    <state width="1680" height="301" key="GridCell.Tab.0.center" timestamp="1606840505501">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1680" height="301" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1606840441389" />
+    <state width="1680" height="301" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1606840505501" />
     <state width="1877" height="351" key="GridCell.Tab.0.center/0.0.1920.1040/0.1080.1536.824@0.0.1920.1040" timestamp="1606245032933" />
     <state width="1201" height="264" key="GridCell.Tab.0.center/0.23.1680.981@0.23.1680.981" timestamp="1606839560281" />
-    <state width="1680" height="301" key="GridCell.Tab.0.left" timestamp="1606840441388">
+    <state width="1680" height="301" key="GridCell.Tab.0.left" timestamp="1606840505501">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1680" height="301" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1606840441388" />
+    <state width="1680" height="301" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1606840505501" />
     <state width="1877" height="351" key="GridCell.Tab.0.left/0.0.1920.1040/0.1080.1536.824@0.0.1920.1040" timestamp="1606245032933" />
     <state width="1201" height="264" key="GridCell.Tab.0.left/0.23.1680.981@0.23.1680.981" timestamp="1606839560281" />
-    <state width="1680" height="301" key="GridCell.Tab.0.right" timestamp="1606840441389">
+    <state width="1680" height="301" key="GridCell.Tab.0.right" timestamp="1606840505502">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1680" height="301" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1606840441389" />
+    <state width="1680" height="301" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1606840505502" />
     <state width="1877" height="351" key="GridCell.Tab.0.right/0.0.1920.1040/0.1080.1536.824@0.0.1920.1040" timestamp="1606245032933" />
     <state width="1201" height="264" key="GridCell.Tab.0.right/0.23.1680.981@0.23.1680.981" timestamp="1606839560282" />
     <state width="1877" height="351" key="GridCell.Tab.1.bottom" timestamp="1606245032879">
