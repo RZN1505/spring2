@@ -18,7 +18,6 @@ public class OrderController {
     @Autowired
     private OrderRepository orderRepository;
 
-    @Log(message = "#dto.example")
     @GetMapping
     public List<Order> findAllOrders(/*@RequestBody InputDTO dto*/) {
         System.out.println("Зашли в лог через контроллер");
