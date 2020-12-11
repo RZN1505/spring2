@@ -5,10 +5,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-public interface GreetingController {
-    @RequestMapping("/main")
-    String mainText();
+public interface MainController {
+    @RequestMapping("/maintwo")
+    String mainTextTwo();
 
-    @GetMapping("/parametrized/{id}")
-    String parametrized(@PathVariable(value = "id") String id);
+    @GetMapping("/parametrizedtwo/{id}")
+    String parametrizedTwo(@PathVariable(value = "id") String id);
 }

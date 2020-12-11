@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-public class GreetingControllerImpl implements GreetingController {
+public class MainControllerImpl implements MainController {
     @Autowired
     @Lazy
     private EurekaClient eurekaClient;
@@ -19,23 +19,18 @@ public class GreetingControllerImpl implements GreetingController {
 //    private String username;
 
     @Override
-    @RequestMapping("/main")
-    public String mainText() {
-        return String.format("Hello from '%s'!", eurekaClient.getApplication(appName).getName());
+    @RequestMapping("/maintwo")
+    public String mainTextTwo() {
+        return String.format("Дополнительная страница", eurekaClient.getApplication(appName).getName());
     }
 
-    @GetMapping("/abc")
+    @GetMapping("/abc2")
     public void test() {
-        System.out.println("_ABC_");
+        System.out.println("_ABC2_");
     }
 
-    @GetMapping("/abcr")
-    public String abcr() {
-        return "ABC";
-    }
-
-    @GetMapping("/parametrized/{id}")
-    public String parametrized(@PathVariable(value = "id") String id) {
-        return "echo: " + id;
+    @GetMapping("/parametrizedtwo/{id}")
+    public String parametrizedTwo(@PathVariable(value = "id") String id) {
+        return "нужный ид2: " + id;
     }
 }
